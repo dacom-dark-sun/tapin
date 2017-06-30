@@ -1,5 +1,7 @@
 from bitshares.account import Account
+from bitsharesbase.chains import known_chains
 from bitshares import BitShares
+
 import re
 from pprint import pprint
 import json
@@ -11,6 +13,13 @@ import traceback
 from . import config
 from graphenebase.account import PasswordKey
 log = app.logger
+
+
+known_chains['DACom'] = {
+    "chain_id": "667abb9fdae35be03f62657079377e8b2d0617affcd6fdd9b7777f230db2d33f",
+    "core_symbol": "CORE",
+    "prefix": "GPH"
+}
 
 
 def api_error(msg):
