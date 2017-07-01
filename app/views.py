@@ -16,9 +16,9 @@ log = app.logger
 
 
 known_chains['DACom'] = {
-    "chain_id": "667abb9fdae35be03f62657079377e8b2d0617affcd6fdd9b7777f230db2d33f",
-    "core_symbol": "CORE",
-    "prefix": "GPH"
+    "chain_id": "526880c720c677ef7b54f964fe68999d1e582a33c8636b0f3b4687d47ae2f67f",
+    "core_symbol": "FLO",
+    "prefix": "FLO"
 }
 
 
